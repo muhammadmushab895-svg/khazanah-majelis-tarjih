@@ -191,13 +191,13 @@
   {
     "id": "pdf-brm-03-2024",
     "forum_id": "munas-tarjih-31",
-    "judul": "BRM No. 03/2024 — Tanfidz Keputusan Munas Tarjih (Munas XXI, XXX & XXXI)",
-    "url_pdf": "https://tarjih.or.id/wp-content/uploads/2024/03/BRM-03-Tanfidz-Keputusan-Munas-Tarjih.pdf",
+    "judul": "BRM No. 03 — Tanfidz Keputusan Munas Tarjih (Munas XXI, XXX & XXXI)",
+    "url_pdf": "https://tarjih.or.id/wp-content/uploads/2026/11/BRM-03-Tanfidz-Keputusan-Munas-Tarjih.pdf",
     "url_halaman_sumber": "https://tarjih.or.id/brm-tanfidz-munas-xxi-munas-xxx-munas-xxxi/",
     "tipe_host": "direct_pdf",
-    "sumber_label": "tarjih.or.id (BRM 03/2024)",
-    "tahun": 2024,
-    "deskripsi": "Berita Resmi Muhammadiyah No. 03/2022-2027 (Februari 2024) berisi kompilasi Tanfidz Keputusan Munas Tarjih Muhammadiyah."
+    "sumber_label": "tarjih.or.id (BRM 03 Resmi)",
+    "tahun": 2026,
+    "deskripsi": "Berita Resmi Muhammadiyah No. 03 berisi kompilasi resmi Tanfidz Keputusan Munas Tarjih Muhammadiyah."
   },
   {
     "id": "pdf-brm-munas-28",
@@ -410,14 +410,14 @@
   },
   {
     "id": "pdf-visa-nonhaji-murur",
-    "forum_id": "fatwa-tarjih-resmi",
-    "judul": "Fatwa Berhaji dengan Visa Nonhaji, Skema Murur di Muzdalifah & Tanazul",
-    "url_pdf": "https://tarjih.or.id/wp-content/uploads/2024/06/Fatwa-Berhaji-dengan-Visa-Nonhaji-Murur-Tanazul.pdf",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "judul": "Fikih Haji dan Kiat Menjaga Kemabruran Haji — Majelis Tarjih Muhammadiyah",
+    "url_pdf": "https://tarjih.or.id/wp-content/uploads/2022/09/Fikih-Haji-dan-Kiat-Menjaga-Kembaruran-Haji.pdf",
     "url_halaman_sumber": "https://tarjih.or.id",
     "tipe_host": "direct_pdf",
-    "sumber_label": "tarjih.or.id (Fatwa Haji 2024)",
-    "tahun": 2024,
-    "deskripsi": "Fatwa kontemporer Majelis Tarjih (2024) tentang hukum berhaji menggunakan visa nonhaji, mabit murur di Muzdalifah, dan tanazul di Mina."
+    "sumber_label": "tarjih.or.id (Fikih Haji)",
+    "tahun": 2022,
+    "deskripsi": "Panduan fikih manasik haji, rukun dan wajib haji, serta kiat menjaga kemabruran haji menurut Majelis Tarjih Muhammadiyah."
   },
   {
     "id": "pdf-pinpri-syariat",

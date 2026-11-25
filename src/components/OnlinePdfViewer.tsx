@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   BookOpen,
@@ -19,6 +19,7 @@ import type {
   EnrichedTarjihItem,
   JenisProdukTarjih,
 } from "@/types/catalog";
+import { PdfCanvasRenderer } from "./PdfCanvasRenderer";
 
 interface OnlinePdfViewerProps {
   doc: DokumenPdfItem;
@@ -46,17 +47,21 @@ export function OnlinePdfViewer({
   const [pageInput, setPageInput] = useState<string>(
     String(Math.max(1, initialPage))
   );
+  const [detectedPages, setDetectedPages] = useState<number | undefined>(
+    doc.total_halaman
+  );
   const [activeId, setActiveId] = useState<string | undefined>(activeMasailId);
   const [activeLabel, setActiveLabel] = useState<string | undefined>(
     highlightTitle
   );
   const [expanded, setExpanded] = useState(false);
 
-  // Viewer mode: archive_org supports lightweight bookreader stream + direct PDF proxy;
-  // direct_pdf uses native HTTP Range PDF streaming + Google Docs fallback for mobile browsers.
+  // Default to built-in PDF.js Canvas Renderer ("in_app") for direct_pdf so EVERY browser
+  // (desktop, mobile, PWA, embedded webview) renders directly inside the app!
+  // For archive_org items with bookreader, default to lightweight Archive stream + in_app option.
   const [viewerMode, setViewerMode] = useState<
-    "archive_stream" | "pdf_native" | "gdocs"
-  >(doc.tipe_host === "archive_org" ? "archive_stream" : "pdf_native");
+    "in_app" | "archive_stream" | "gdocs"
+  >(doc.tipe_host === "archive_org" ? "archive_stream" : "in_app");
 
   // Per-PDF Masalah Filter state
   const [filterQuery, setFilterQuery] = useState("");
@@ -66,7 +71,6 @@ export function OnlinePdfViewer({
 
   const hasIndex = indexedMasail.length > 0;
 
-  // Compact list of distinct Bab Tabwib inside this PDF
   const babOptions = useMemo(() => {
     const map = new Map<string, { id: string; nama: string; count: number }>();
     for (const m of indexedMasail) {
@@ -77,7 +81,6 @@ export function OnlinePdfViewer({
     return Array.from(map.values()).sort((a, b) => a.id.localeCompare(b.id));
   }, [indexedMasail]);
 
-  // Distinct Jenis Produk inside this PDF (only show pills if >1)
   const jenisOptions = useMemo(() => {
     const map = new Map<JenisProdukTarjih, number>();
     for (const m of indexedMasail) {
@@ -101,15 +104,19 @@ export function OnlinePdfViewer({
     });
   }, [indexedMasail, filterQuery, selectedBab, selectedJenis]);
 
-  const jumpToPage = (targetPage: number, item?: EnrichedTarjihItem) => {
-    const safe = Math.max(1, targetPage);
-    setPageNum(safe);
-    setPageInput(String(safe));
-    if (item) {
-      setActiveId(item.id);
-      setActiveLabel(item.judul);
-    }
-  };
+  const jumpToPage = useCallback(
+    (targetPage: number, item?: EnrichedTarjihItem) => {
+      const maxP = detectedPages || 9999;
+      const safe = Math.min(maxP, Math.max(1, targetPage));
+      setPageNum(safe);
+      setPageInput(String(safe));
+      if (item) {
+        setActiveId(item.id);
+        setActiveLabel(item.judul);
+      }
+    },
+    [detectedPages]
+  );
 
   const handleManualJump = (e: React.FormEvent) => {
     e.preventDefault();
@@ -119,22 +126,23 @@ export function OnlinePdfViewer({
     }
   };
 
-  const iframeSrc = useMemo(() => {
+  const handleTotalPagesLoaded = useCallback((total: number) => {
+    setDetectedPages(total);
+  }, []);
+
+  const fallbackIframeSrc = useMemo(() => {
     if (viewerMode === "archive_stream" && doc.archive_identifier) {
       const zeroIdx = Math.max(0, pageNum - 1);
       return `https://archive.org/embed/${encodeURIComponent(
         doc.archive_identifier
       )}#page/n${zeroIdx}/mode/1up`;
     }
-    if (viewerMode === "gdocs") {
-      return `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(
-        doc.url_pdf
-      )}`;
-    }
-    return `/api/pdf-proxy?doc=${encodeURIComponent(
-      doc.id
-    )}#page=${pageNum}&view=FitH`;
-  }, [viewerMode, doc.archive_identifier, doc.id, doc.url_pdf, pageNum]);
+    return `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(
+      doc.url_pdf
+    )}`;
+  }, [viewerMode, doc.archive_identifier, doc.url_pdf, pageNum]);
+
+  const totalPagesDisplay = detectedPages || doc.total_halaman;
 
   return (
     <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
@@ -150,7 +158,7 @@ export function OnlinePdfViewer({
             </p>
             <p className="truncate text-[11px] text-slate-500">
               {doc.sumber_label}
-              {doc.total_halaman ? ` • ${doc.total_halaman} halaman` : ""}
+              {totalPagesDisplay ? ` • ${totalPagesDisplay} halaman` : ""}
               {activeLabel ? ` • Fokus: ${activeLabel}` : ""}
             </p>
           </div>
@@ -159,58 +167,42 @@ export function OnlinePdfViewer({
         <div className="flex flex-wrap items-center gap-2">
           {/* Viewer Mode Switcher */}
           <div className="inline-flex rounded-lg border border-slate-200 bg-white p-0.5 text-xs">
-            {doc.tipe_host === "archive_org" ? (
-              <>
-                <button
-                  type="button"
-                  onClick={() => setViewerMode("archive_stream")}
-                  className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
-                    viewerMode === "archive_stream"
-                      ? "bg-[#0b4f8c] text-white"
-                      : "text-slate-600 hover:bg-slate-100"
-                  }`}
-                >
-                  Stream Ringan
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setViewerMode("pdf_native")}
-                  className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
-                    viewerMode === "pdf_native"
-                      ? "bg-[#0b4f8c] text-white"
-                      : "text-slate-600 hover:bg-slate-100"
-                  }`}
-                >
-                  PDF Langsung
-                </button>
-              </>
-            ) : (
-              <>
-                <button
-                  type="button"
-                  onClick={() => setViewerMode("pdf_native")}
-                  className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
-                    viewerMode === "pdf_native"
-                      ? "bg-[#0b4f8c] text-white"
-                      : "text-slate-600 hover:bg-slate-100"
-                  }`}
-                >
-                  PDF Streaming
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setViewerMode("gdocs")}
-                  className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
-                    viewerMode === "gdocs"
-                      ? "bg-[#0b4f8c] text-white"
-                      : "text-slate-600 hover:bg-slate-100"
-                  }`}
-                  title="Gunakan penampil alternatif jika perangkat mobile tidak menampilkan PDF bawaan"
-                >
-                  Mode Mobile
-                </button>
-              </>
+            {doc.tipe_host === "archive_org" && (
+              <button
+                type="button"
+                onClick={() => setViewerMode("archive_stream")}
+                className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
+                  viewerMode === "archive_stream"
+                    ? "bg-[#0b4f8c] text-white"
+                    : "text-slate-600 hover:bg-slate-100"
+                }`}
+              >
+                Stream Archive
+              </button>
             )}
+            <button
+              type="button"
+              onClick={() => setViewerMode("in_app")}
+              className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
+                viewerMode === "in_app"
+                  ? "bg-[#0b4f8c] text-white"
+                  : "text-slate-600 hover:bg-slate-100"
+              }`}
+            >
+              Baca Langsung
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewerMode("gdocs")}
+              className={`rounded-md px-2.5 py-1 font-medium transition-colors ${
+                viewerMode === "gdocs"
+                  ? "bg-[#0b4f8c] text-white"
+                  : "text-slate-600 hover:bg-slate-100"
+              }`}
+              title="Penampil alternatif Google Docs Viewer"
+            >
+              Google Viewer
+            </button>
           </div>
 
           {/* Manual page jump */}
@@ -223,7 +215,7 @@ export function OnlinePdfViewer({
               <input
                 type="number"
                 min={1}
-                max={doc.total_halaman || 9999}
+                max={totalPagesDisplay || 9999}
                 value={pageInput}
                 onChange={(e) => setPageInput(e.target.value)}
                 className="w-12 bg-transparent text-center font-semibold text-slate-900 focus:outline-none"
@@ -278,7 +270,7 @@ export function OnlinePdfViewer({
         </div>
       </div>
 
-      {/* Main Split Area: Per-PDF Masalah Filter Sidebar + Online PDF Iframe */}
+      {/* Main Split Area: Per-PDF Masalah Filter Sidebar + Built-In PDF.js Reader */}
       <div
         className={`grid grid-cols-1 ${
           hasIndex && sidebarOpen ? "lg:grid-cols-12" : ""
@@ -297,7 +289,6 @@ export function OnlinePdfViewer({
                 </span>
               </div>
 
-              {/* Search within PDF */}
               <div className="relative">
                 <Search className="pointer-events-none absolute top-1/2 left-2.5 h-3.5 w-3.5 -translate-y-1/2 text-slate-400" />
                 <input
@@ -319,7 +310,6 @@ export function OnlinePdfViewer({
                 )}
               </div>
 
-              {/* Jenis Produk pills (only if multiple types exist in this PDF) */}
               {jenisOptions.length > 1 && (
                 <div className="mt-2.5 flex flex-wrap gap-1">
                   <button
@@ -350,7 +340,6 @@ export function OnlinePdfViewer({
                 </div>
               )}
 
-              {/* Compact Bab Tabwib dropdown (only if >1 Bab) */}
               {babOptions.length > 1 && (
                 <div className="mt-2.5 flex items-center gap-1.5">
                   <Filter className="h-3.5 w-3.5 shrink-0 text-slate-400" />
@@ -373,7 +362,6 @@ export function OnlinePdfViewer({
               )}
             </div>
 
-            {/* Indexed Masalah List (strictly sorted by PDF page) */}
             <div
               className={`divide-y divide-slate-200/70 overflow-y-auto ${
                 expanded ? "max-h-[780px]" : "max-h-[580px]"
@@ -388,7 +376,9 @@ export function OnlinePdfViewer({
                   const targetPage = m.pdf?.halaman_mulai || 1;
                   const isActive =
                     activeId === m.id ||
-                    (!activeId && pageNum === targetPage && m.id === filteredMasail[0]?.id);
+                    (!activeId &&
+                      pageNum === targetPage &&
+                      m.id === filteredMasail[0]?.id);
                   return (
                     <div
                       key={m.id}
@@ -443,26 +433,39 @@ export function OnlinePdfViewer({
           </aside>
         )}
 
-        {/* PDF Iframe Pane */}
+        {/* PDF Viewer Pane */}
         <div
-          className={`relative bg-slate-900/5 ${
+          className={`relative bg-slate-100 ${
             hasIndex && sidebarOpen ? "lg:col-span-8" : "col-span-1"
           }`}
         >
-          <iframe
-            key={`${viewerMode}-${pageNum}`}
-            src={iframeSrc}
-            title={`Pratinjau Online: ${doc.judul}`}
-            className={`w-full border-0 bg-slate-100 ${
-              expanded ? "h-[82vh] min-h-[680px]" : "h-[74vh] min-h-[580px]"
-            }`}
-            allow="fullscreen"
-          />
+          {viewerMode === "in_app" ? (
+            <PdfCanvasRenderer
+              docId={doc.id}
+              originalUrl={doc.url_pdf}
+              pageNum={pageNum}
+              onPageChange={(p) => jumpToPage(p)}
+              onTotalPagesLoaded={handleTotalPagesLoaded}
+              onFallbackRequested={() => setViewerMode("gdocs")}
+              expanded={expanded}
+            />
+          ) : (
+            <iframe
+              key={`${viewerMode}-${pageNum}`}
+              src={fallbackIframeSrc}
+              title={`Pratinjau Online: ${doc.judul}`}
+              className={`w-full border-0 bg-slate-100 ${
+                expanded ? "h-[82vh] min-h-[680px]" : "h-[74vh] min-h-[580px]"
+              }`}
+              allow="fullscreen"
+            />
+          )}
+
           <div className="flex flex-wrap items-center justify-between gap-2 border-t border-slate-200 bg-slate-50 px-4 py-2 text-[11px] text-slate-500">
             <span>
               Halaman aktif: <strong className="text-slate-800">{pageNum}</strong>
-              {doc.total_halaman ? ` dari ${doc.total_halaman}` : ""} • Streaming
-              langsung tanpa menyimpan file di perangkat.
+              {totalPagesDisplay ? ` dari ${totalPagesDisplay}` : ""} • Tampil
+              langsung di dalam aplikasi tanpa menyimpan file PDF ke perangkat.
             </span>
             <a
               href={doc.url_halaman_sumber}
