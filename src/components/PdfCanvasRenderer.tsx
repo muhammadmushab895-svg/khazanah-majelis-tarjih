@@ -104,6 +104,7 @@ export function PdfCanvasRenderer({
         const pdfjsVer = pdfjs.version || "6.5.438";
         const cMapUrl = `https://unpkg.com/pdfjs-dist@${pdfjsVer}/cmaps/`;
         const standardFontDataUrl = `https://unpkg.com/pdfjs-dist@${pdfjsVer}/standard_fonts/`;
+        const wasmUrl = "/pdf-wasm/";
 
         let loadingTask;
 
@@ -129,15 +130,17 @@ export function PdfCanvasRenderer({
             cMapUrl,
             cMapPacked: true,
             standardFontDataUrl,
+            wasmUrl,
           });
         } else if (meta.length > 0 && meta.acceptRanges) {
-          // Smart HTTP 206 Range-chunked streaming with max-2 concurrency, 512 KB sub-chunk cap & retry
+          // Smart HTTP 206 Range-chunked streaming with dedup, max-2 concurrency, 512 KB cap & retry
           const mb = (meta.length / (1024 * 1024)).toFixed(1);
           setLoadInfo(`Streaming cerdas dokumen ${mb} MB (hemat kuota)...`);
 
-          const MAX_SUB_CHUNK = 524288; // 512 KB max per HTTP request to prevent upstream stalls
-          const MAX_CONCURRENT = 2;
+          const MAX_SUB_CHUNK = RANGE_CHUNK_SIZE; // Exact 256 KB chunk alignment for zero overlap/duplicates
+          const MAX_CONCURRENT = 3;
           const queue: (() => Promise<void>)[] = [];
+          const requestedChunks = new Set<number>();
           let activeCount = 0;
 
           const pumpQueue = () => {
@@ -164,10 +167,13 @@ export function PdfCanvasRenderer({
 
             requestDataRange(begin: number, end: number) {
               const safeEnd = Math.min(end, meta.length);
-              // Split multi-megabyte requests (e.g. cover images) into 512 KB sub-chunks
+              // Split multi-chunk requests on exact RANGE_CHUNK_SIZE boundaries and deduplicate by chunk index
               for (let pos = begin; pos < safeEnd; pos += MAX_SUB_CHUNK) {
                 const subStart = pos;
                 const subEnd = Math.min(pos + MAX_SUB_CHUNK, safeEnd);
+                const chunkIdx = Math.floor(subStart / RANGE_CHUNK_SIZE);
+                if (requestedChunks.has(chunkIdx)) continue;
+                requestedChunks.add(chunkIdx);
 
                 enqueue(async () => {
                   if (cancelled) return;
@@ -199,8 +205,9 @@ export function PdfCanvasRenderer({
                     } catch {
                       clearTimeout(timer);
                       abortControllers.delete(ctrl);
-                      if (attempt === 2 && !cancelled) {
-                        this.abort();
+                      if (attempt === 2) {
+                        requestedChunks.delete(chunkIdx);
+                        if (!cancelled) this.abort();
                       }
                     }
                   }
@@ -218,6 +225,7 @@ export function PdfCanvasRenderer({
             cMapUrl,
             cMapPacked: true,
             standardFontDataUrl,
+            wasmUrl,
           });
         } else {
           // Fallback full fetch when upstream doesn't advertise Range
@@ -239,6 +247,7 @@ export function PdfCanvasRenderer({
             cMapUrl,
             cMapPacked: true,
             standardFontDataUrl,
+            wasmUrl,
           });
         }
 
