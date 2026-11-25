@@ -1,0 +1,696 @@
+[
+  {
+    "id": "tj-pdf-0004",
+    "slug": "sk-pp-muhammadiyah-no-112-2025-tanfidz-fikih-informasi-muhammadiyah",
+    "judul": "SK PP Muhammadiyah No. 112/2025 — Tanfidz Fikih Informasi Muhammadiyah",
+    "tabwib_id": "07.03",
+    "forum_id": "munas-tarjih-30",
+    "tahun": 2025,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Keputusan tanfidz resmi Fikih Informasi Muhammadiyah hasil Munas XXX Makassar dalam BRM No. 05/2025.",
+    "tags": [
+      "fikih-tematik",
+      "2025",
+      "tanfidz",
+      "fikih",
+      "informasi"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-brm-05-2025",
+      "halaman_mulai": 34
+    }
+  },
+  {
+    "id": "tj-pdf-0005",
+    "slug": "pandangan-islam-dan-pengertian-umum-tentang-informasi-fikih-informasi-bab-ii",
+    "judul": "Pandangan Islam dan Pengertian Umum tentang Informasi (Fikih Informasi Bab II)",
+    "tabwib_id": "07.03",
+    "forum_id": "munas-tarjih-30",
+    "tahun": 2025,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Konsep informasi, hakikat berita, tabayyun, dan urgensi literasi informasi dalam ajaran Islam.",
+    "tags": [
+      "fikih-tematik",
+      "pandangan",
+      "pengertian",
+      "umum",
+      "informasi",
+      "fikih"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-brm-05-2025",
+      "halaman_mulai": 40
+    }
+  },
+  {
+    "id": "tj-pdf-0006",
+    "slug": "kaidah-kaidah-nilai-dasar-islam-terkait-informasi-fikih-informasi-bab-iii",
+    "judul": "Kaidah-Kaidah & Nilai Dasar Islam Terkait Informasi (Fikih Informasi Bab III)",
+    "tabwib_id": "07.03",
+    "forum_id": "munas-tarjih-30",
+    "tahun": 2025,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Al-Qiyam al-Asasiyyah, prinsip kebenaran (shidq), amanah, perlindungan privasi, dan etika komunikasi digital.",
+    "tags": [
+      "fikih-tematik",
+      "kaidah-kaidah",
+      "nilai",
+      "dasar",
+      "terkait",
+      "informasi",
+      "fikih"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-brm-05-2025",
+      "halaman_mulai": 65
+    }
+  },
+  {
+    "id": "tj-pdf-0007",
+    "slug": "problematika-dunia-cyber-media-sosial-budaya-maya-fikih-informasi-bab-iv",
+    "judul": "Problematika Dunia Cyber, Media Sosial & Budaya Maya (Fikih Informasi Bab IV)",
+    "tabwib_id": "07.03",
+    "forum_id": "munas-tarjih-30",
+    "tahun": 2025,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Analisis fikih kontemporer atas media sosial, penyebaran hoaks, ujaran kebencian, dan pencemaran nama baik di dunia siber.",
+    "tags": [
+      "fikih-tematik",
+      "problematika",
+      "dunia",
+      "cyber",
+      "media",
+      "sosial",
+      "budaya"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-brm-05-2025",
+      "halaman_mulai": 80
+    }
+  },
+  {
+    "id": "tj-pdf-0041",
+    "slug": "kriteria-kehalalan-daging-bagi-muslim-di-luar-negeri",
+    "judul": "Kriteria Kehalalan Daging bagi Muslim di Luar Negeri",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Kaidah pokok kehalalan sembelihan, hukum membaca tasmiyah, dan syarat penyembelih dalam persoalan kuliner luar negeri.",
+    "tags": [
+      "fatwa",
+      "kriteria",
+      "kehalalan",
+      "daging",
+      "muslim",
+      "luar",
+      "negeri"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 6
+    }
+  },
+  {
+    "id": "tj-pdf-0042",
+    "slug": "hukum-mengonsumsi-daging-impor-dari-negara-mayoritas-kristen-ahlul-kitab",
+    "judul": "Hukum Mengonsumsi Daging Impor dari Negara Mayoritas Kristen (Ahlul Kitab)",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Analisis dalil sembelihan Ahlul Kitab, metode pemotongan modern (stunning), dan kriteria negara Ahlul Kitab.",
+    "tags": [
+      "fatwa",
+      "mengonsumsi",
+      "daging",
+      "impor",
+      "negara",
+      "mayoritas",
+      "kristen"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 10
+    }
+  },
+  {
+    "id": "tj-pdf-0043",
+    "slug": "hukum-asal-status-daging-yang-beredar-di-jepang-negara-non-ahlul-kitab",
+    "judul": "Hukum Asal Status Daging yang Beredar di Jepang & Negara Non-Ahlul Kitab",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Kaidah fikih status kehalalan daging di negara minoritas Muslim yang penduduknya bukan Ahlul Kitab.",
+    "tags": [
+      "fatwa",
+      "asal",
+      "status",
+      "daging",
+      "beredar",
+      "jepang",
+      "negara"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 19
+    }
+  },
+  {
+    "id": "tj-pdf-0044",
+    "slug": "hukum-emulsifier-dari-bahan-haram-istihalah-dalam-makanan",
+    "judul": "Hukum Emulsifier dari Bahan Haram & Istihalah dalam Makanan",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pembahasan status bahan tambahan pangan (emulsifier, gelatin, enzim) dan kaidah transformasi zat (istihalah).",
+    "tags": [
+      "fatwa",
+      "emulsifier",
+      "bahan",
+      "haram",
+      "istihalah",
+      "makanan"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 20
+    }
+  },
+  {
+    "id": "tj-pdf-0045",
+    "slug": "hukum-mirin-dan-bahan-masakan-mengandung-alkohol-dalam-kuliner",
+    "judul": "Hukum Mirin dan Bahan Masakan Mengandung Alkohol dalam Kuliner",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Status fikih penggunaan mirin, sake masak, dan bumbu fermentasi beralkohol pada masakan di luar negeri.",
+    "tags": [
+      "fatwa",
+      "mirin",
+      "bahan",
+      "masakan",
+      "mengandung",
+      "alkohol",
+      "kuliner"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 24
+    }
+  },
+  {
+    "id": "tj-pdf-0046",
+    "slug": "makan-di-restoran-sekolah-yang-menggunakan-alat-masak-bersama-non-halal",
+    "judul": "Makan di Restoran & Sekolah yang Menggunakan Alat Masak Bersama Non-Halal",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Hukum makan di restoran non-sertifikat halal, makanan sekolah muslim-friendly, dan penggunaan mesin cuci piring bersama.",
+    "tags": [
+      "fatwa",
+      "makan",
+      "restoran",
+      "sekolah",
+      "menggunakan",
+      "alat",
+      "masak"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 26
+    }
+  },
+  {
+    "id": "tj-pdf-0047",
+    "slug": "hukum-produk-non-makanan-tanpa-label-halal-batas-pengecekan-kehalalan",
+    "judul": "Hukum Produk Non-Makanan Tanpa Label Halal & Batas Pengecekan Kehalalan",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Batas ikhtiar syar'i mengecek komposisi kosmetik, sabun, dan produk non-konsumsi bagi muslim perantauan.",
+    "tags": [
+      "fatwa",
+      "produk",
+      "non-makanan",
+      "tanpa",
+      "label",
+      "halal",
+      "batas"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 30
+    }
+  },
+  {
+    "id": "tj-pdf-0049",
+    "slug": "tidak-sengaja-memakan-yang-haram-memberikan-hadiah-haram-ke-non-muslim",
+    "judul": "Tidak Sengaja Memakan yang Haram & Memberikan Hadiah Haram ke Non-Muslim",
+    "tabwib_id": "07.02",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2025,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Status hukum ketidaksengajaan mengonsumsi makanan haram, hukum menghadiahkan makanan haram agar tidak mubazir, serta kaidah ihtiyath vs taysir.",
+    "tags": [
+      "fatwa",
+      "sengaja",
+      "memakan",
+      "haram",
+      "memberikan",
+      "hadiah"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-kuliner-luar-negeri",
+      "halaman_mulai": 33
+    }
+  },
+  {
+    "id": "tj-pdf-0063",
+    "slug": "sebutan-bermartabat-kerangka-nilai-dasar-fikih-difabel-muhammadiyah",
+    "judul": "Sebutan Bermartabat & Kerangka Nilai Dasar Fikih Difabel Muhammadiyah",
+    "tabwib_id": "07.04",
+    "forum_id": "munas-tarjih-31",
+    "tahun": 2021,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Terminologi Al-Qur'an yang memuliakan penyandang disabilitas serta bangunan al-qiyam al-asasiyyah & al-ushul al-kulliyyah.",
+    "tags": [
+      "fikih-tematik",
+      "sebutan",
+      "bermartabat",
+      "kerangka",
+      "nilai",
+      "dasar",
+      "fikih"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-fikih-difabel",
+      "halaman_mulai": 2
+    }
+  },
+  {
+    "id": "tj-pdf-0064",
+    "slug": "aksesibilitas-fasilitas-ibadah-rukhshah-pelayanan-bagi-penyandang-difabel",
+    "judul": "Aksesibilitas Fasilitas Ibadah & Rukhshah Pelayanan bagi Penyandang Difabel",
+    "tabwib_id": "07.04",
+    "forum_id": "munas-tarjih-31",
+    "tahun": 2021,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Pedoman praktis aksesibilitas tempat bersuci, masjid, dan prinsip menghilangkan kemadharatan bagi difabel.",
+    "tags": [
+      "fikih-tematik",
+      "aksesibilitas",
+      "fasilitas",
+      "ibadah",
+      "rukhshah",
+      "pelayanan",
+      "penyandang"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-fikih-difabel",
+      "halaman_mulai": 7
+    }
+  },
+  {
+    "id": "tj-ftw-0234",
+    "slug": "hukum-konsumsi-laron-belalang-dan-gangsir",
+    "judul": "Hukum Konsumsi Laron, Belalang dan Gangsir",
+    "tabwib_id": "07.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu’alaikum w. w. Kami ingin menanyakan beberapa binatang yang sering kami lihat diperjualbelikan untuk dikonsumsi yaitu laron, belalang dan gangsir. Pertanyan dari:Suwarto, Wonosobo, Jawa Tengah(disidan",
+    "tags": [
+      "fatwa-tarjih",
+      "konsumsi",
+      "laron",
+      "belalang",
+      "gangsir"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-konsumsi-laron-belalang-dan-gangsir/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-11-21"
+    }
+  },
+  {
+    "id": "tj-ftw-0240",
+    "slug": "hukum-bunuh-diri-menurut-islam",
+    "judul": "Hukum Bunuh Diri Menurut Islam",
+    "tabwib_id": "07.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu’alaikum w.w. Bagaimana hukum orang Islam yang meninggal karena bunuh diri (bom bunuh diri, gantung diri, minum racun serangga dan lain-lain)? Mohon dijelaskan beserta dalil al-Quran. Terima kasih. Wa",
+    "tags": [
+      "fatwa-tarjih",
+      "bunuh",
+      "diri"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-bunuh-diri-menurut-islam/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-10-06"
+    }
+  },
+  {
+    "id": "tj-ftw-0307",
+    "slug": "hukum-alkohol-pada-parfum-antiseptic-sanitizer-dan-sejenisnya",
+    "judul": "Hukum Alkohol pada Parfum, Antiseptic, Sanitizer dan Sejenisnya",
+    "tabwib_id": "07.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu’alaikum w. w. Begini, saya bingung tentang menggunakan parfum beralkohol, saya bimbang sebab saya pernah mendengar boleh menggunakan asal bahan-bahan untuk membuat alkoholnya dari bahan-bahan halal,",
+    "tags": [
+      "fatwa-tarjih",
+      "alkohol",
+      "parfum",
+      "antiseptic",
+      "sanitizer",
+      "sejenisnya"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-alkohol-pada-parfum-antiseptic-sanitizer-dan-sejenisnya/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-03-14"
+    }
+  },
+  {
+    "id": "tj-ftw-0324",
+    "slug": "memakai-jimat-bagaimana-hukumnya",
+    "judul": "Memakai Jimat, Bagaimana Hukumnya?",
+    "tabwib_id": "07.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "As-Salamu'alaikum wr. wb. Apakah jimat itu diperbolehkan atau tidak? Mengapa Nahdatul Ulama mengajarkan tentang membuat jimat? Saya setiap hari menonton TV PERSADA yang didirikan pondok pesantren Sunan",
+    "tags": [
+      "fatwa-tarjih",
+      "memakai",
+      "jimat"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-jimat-dalam-islam/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-26"
+    }
+  },
+  {
+    "id": "tj-ftw-0333",
+    "slug": "hukum-mengonsumsi-kopi-luwak-dan-binatang-luwak",
+    "judul": "Hukum Mengonsumsi Kopi Luwak dan Binatang Luwak",
+    "tabwib_id": "07.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu 'alaikum w. w. Dengan hormat saya sampaikan pertanyaan sebagai berikut: Kami ingin mendapatkan penjelasan tentang kopi luwak yang mana kopi luwak itu berasal dari kotoran binatang luwak yang be",
+    "tags": [
+      "fatwa-tarjih",
+      "mengonsumsi",
+      "kopi",
+      "luwak",
+      "binatang"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-mengonsumsi-kopi-luwak-dan-binatang-luwak/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-20"
+    }
+  },
+  {
+    "id": "tj-ftw-0344",
+    "slug": "hukum-game-online",
+    "judul": "Hukum Game Online",
+    "tabwib_id": "07.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu'alaikum w. w. Semoga Allah senantiasa memberkati bapak-ibu ulama kita, amin. Belakangan ini seiring berkembangnya teknologi TIK khususnya facebook, diiringi pula dengan game online, banyak kala",
+    "tags": [
+      "fatwa-tarjih",
+      "game",
+      "online"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-game-online/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0406",
+    "slug": "hukum-melanggar-perjanjian-beasiswa-ikatan-dinas",
+    "judul": "Hukum Melanggar Perjanjian Beasiswa Ikatan Dinas",
+    "tabwib_id": "07.04",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Ada beberapa karya siswa Indonesia yang tidak kembali ke tanah air setelah menyelesaikan studi, walaupun mereka telah menandatangani perjanjian ikatan dinas. Alasan untuk tidak kembali ke tanah air bermacam-m",
+    "tags": [
+      "fatwa-tarjih",
+      "melanggar",
+      "perjanjian",
+      "beasiswa",
+      "ikatan",
+      "dinas"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-melanggar-perjanjian-beasiswa-ikatan-dinas/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-14"
+    }
+  },
+  {
+    "id": "tj-ftw-0447",
+    "slug": "bolehkah-mengagumi-dan-mengikuti-kyai-kharismatik",
+    "judul": "Bolehkah Mengagumi dan Mengikuti Kyai Kharismatik?",
+    "tabwib_id": "07.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pertanyaan : Hukum mengagumi dan mengikuti seorang ulama atau kyai kharismatik, yang sekarang telah menjadi kyai sekuler. Pertanyaan Dari:Muhammad Mukhtar, Darungan, Jember, Jawa Timur. Jawaban : Menurut ajaran Islam bah",
+    "tags": [
+      "fatwa-tarjih",
+      "mengagumi",
+      "mengikuti",
+      "kyai",
+      "kharismatik"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/bolehkah-mengagumi-dan-mengikuti-kyai-kharismatik/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-25"
+    }
+  },
+  {
+    "id": "tj-ftw-0467",
+    "slug": "mengonsumsi-telur-dari-ayam-mati-halal-atau-haram",
+    "judul": "Mengonsumsi Telur dari Ayam Mati, Halal atau Haram?",
+    "tabwib_id": "07.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Seorang peternak ayam petelur bercerita ada ayam petelurnya mati seketika. Si peternak ayam yakin dipantat ayamnya yang sudah mati itu ada telur yang sudah jadi belum sempat keluar. Oleh si peternak, telur da",
+    "tags": [
+      "fatwa-tarjih",
+      "mengonsumsi",
+      "telur",
+      "ayam",
+      "mati",
+      "halal",
+      "haram"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/mengonsumsi-telur-dari-ayam-mati-halal-atau-haram/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0468",
+    "slug": "cara-menyembelih-ayam-yang-benar-menurut-islam",
+    "judul": "Cara Menyembelih Ayam yang Benar Menurut Islam",
+    "tabwib_id": "07.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Di satu tempat pemotongan ayam cabut bulu, si penyembelih menyembelih ayam dengan cara sebagai berikut: Tangan kiri penyembelih memegang kedua sayap ayam jadi satu, dengan posisi ayam ditelentangkan kaki di a",
+    "tags": [
+      "fatwa-tarjih",
+      "menyembelih",
+      "ayam",
+      "benar"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/cara-menyembelih-ayam-yang-benar-menurut-islam/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0483",
+    "slug": "bagaimana-hukum-pasang-gigi",
+    "judul": "Bagaimana Hukum Pasang Gigi?",
+    "tabwib_id": "07.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pertanyaan, Bagaimana hukum pasang gigi? Penanya:Sujoko, Sekretaris PCM Ampel,Boyolali, Jawa Tengah Jawaban, Oleh karena masalah ini menyangkut masalah muamalah dan tidak ada larangan dalam al-Qur’an dan as-Sunnah, maka",
+    "tags": [
+      "fatwa-tarjih",
+      "pasang",
+      "gigi"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/bagaimana-hukum-pasang-gigi/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-09"
+    }
+  },
+  {
+    "id": "tj-ftw-0496",
+    "slug": "karamah-seorang-kyai",
+    "judul": "Karamah Seorang Kyai",
+    "tabwib_id": "07.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pertanyaan, Apa yang dimaksud dengan “karamah”?Apakah tindakan santri yang berlomba-lomba mengurus jenazah kiyainya, baik waktu mengkafani, menyalati, dan menguburkan dengan alasan untuk mendapatkan karamahnya oleh merek",
+    "tags": [
+      "fatwa-tarjih",
+      "karamah",
+      "seorang",
+      "kyai"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/karamah-seorang-kyai/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-06"
+    }
+  },
+  {
+    "id": "tj-ftw-0501",
+    "slug": "memakai-kalung-kesehatan-untuk-obat",
+    "judul": "Memakai Kalung Kesehatan untuk Obat",
+    "tabwib_id": "07.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamualaikum Wr. Wb. Pertanyaan saya, apakah boleh memakai kalung untuk pengobatan seperti yang sekarang sedang musim? Pertanyaan Dari:Warga Muhammadiyah, 08132333XXXX(disidangkan pada Jum'at, 27 Sya",
+    "tags": [
+      "fatwa-tarjih",
+      "memakai",
+      "kalung",
+      "kesehatan",
+      "obat"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/memakai-kalung-kesehatan-untuk-obat/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-04"
+    }
+  },
+  {
+    "id": "tj-ftw-0502",
+    "slug": "hukum-memakan-binatang-bertaring",
+    "judul": "Hukum Memakan Binatang Bertaring",
+    "tabwib_id": "07.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamualaikum Wr. Wb. Pertanyaan saya, apakah binatang yang bertaring haram untuk dimakan? Apa dalilnya? Pertanyaan Dari:Warga Muhammadiyah, 08132333XXXX(disidangkan pada Jum'at, 27 Syawal 1430 H / 16",
+    "tags": [
+      "fatwa-tarjih",
+      "memakan",
+      "binatang",
+      "bertaring"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-memakan-binatang-bertaring/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-04"
+    }
+  },
+  {
+    "id": "tj-ftw-0507",
+    "slug": "sikap-muhammadiyah-mengenai-ahmadiyah-dan-ruu-pornografi",
+    "judul": "Sikap Muhammadiyah Mengenai Ahmadiyah dan RUU Pornografi",
+    "tabwib_id": "07.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalaamu'alikum Wr. Wb. Pertanyaan saya, bagaimana sikap muhammadiyah mengenai Ahmadiyah dan RUU Pornografi seperti apa? Wassalamu’alaikum Wr. Wb. Pertanyaan dari:Dedi Hermawan, Bogor, Jawa Barat(disid",
+    "tags": [
+      "fatwa-tarjih",
+      "sikap",
+      "mengenai",
+      "ahmadiyah",
+      "pornografi"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/sikap-muhammadiyah-mengenai-ahmadiyah-dan-ruu-pornografi/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-04"
+    }
+  },
+  {
+    "id": "tj-ftw-0566",
+    "slug": "kedudukan-hadis-mengenai-undangan-menghadiri-khitanan",
+    "judul": "Kedudukan Hadis Mengenai Undangan Menghadiri Khitanan",
+    "tabwib_id": "07.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Bagaimana kedudukan riwayat mengenai menghadiri undangan khitanan berikut ini:... ... ... Kepada pengasuh Fatwa Agama saya mohon penjelasan terperinci. Kemudian atas perhatiannya diucapkan terimak",
+    "tags": [
+      "fatwa-tarjih",
+      "kedudukan",
+      "hadis",
+      "mengenai",
+      "undangan",
+      "menghadiri",
+      "khitanan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hadis-tentang-undangan-menghadiri-khitanan/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-11-17"
+    }
+  }
+]

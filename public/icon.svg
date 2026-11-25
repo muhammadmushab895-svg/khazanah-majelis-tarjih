@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0b4f8c"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" stroke="#e5b344" stroke-width="8" stroke-opacity="0.5"/>
+  <!-- 12-Ray Surya (Sunburst) Emblem -->
+  <g transform="translate(256 164)" stroke="#f2c96b" stroke-width="10" stroke-linecap="round">
+    <line x1="0" y1="-88" x2="0" y2="-54"/>
+    <line x1="44" y1="-76" x2="27" y2="-47"/>
+    <line x1="76" y1="-44" x2="47" y2="-27"/>
+    <line x1="88" y1="0" x2="54" y2="0"/>
+    <line x1="-44" y1="-76" x2="-27" y2="-47"/>
+    <line x1="-76" y1="-44" x2="-47" y2="-27"/>
+    <line x1="-88" y1="0" x2="-54" y2="0"/>
+    <circle cx="0" cy="0" r="34" fill="#f2c96b" stroke="none"/>
+  </g>
+  <!-- Open Kitab / HPT Silhouette -->
+  <path d="M116 226C116 215 126 207 138 209C182 215 223 229 256 250C289 229 330 215 374 209C386 207 396 215 396 226V366C396 377 388 385 377 387C334 393 292 406 262 424C258 427 254 427 250 424C220 406 178 393 135 387C124 385 116 377 116 366V226Z" fill="#f7f9fc"/>
+  <path d="M256 250V424" stroke="#0b4f8c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M156 262C186 267 212 276 232 288" stroke="#0b4f8c" stroke-width="9" stroke-linecap="round" stroke-opacity="0.6"/>
+  <path d="M156 300C186 305 212 314 232 326" stroke="#0b4f8c" stroke-width="9" stroke-linecap="round" stroke-opacity="0.4"/>
+  <path d="M156 338C186 343 212 352 232 364" stroke="#0b4f8c" stroke-width="9" stroke-linecap="round" stroke-opacity="0.28"/>
+  <path d="M356 262C326 267 300 276 280 288" stroke="#c88d1d" stroke-width="9" stroke-linecap="round" stroke-opacity="0.85"/>
+  <path d="M356 300C326 305 300 314 280 326" stroke="#c88d1d" stroke-width="9" stroke-linecap="round" stroke-opacity="0.62"/>
+  <path d="M356 338C326 343 300 352 280 364" stroke="#c88d1d" stroke-width="9" stroke-linecap="round" stroke-opacity="0.45"/>
+</svg>

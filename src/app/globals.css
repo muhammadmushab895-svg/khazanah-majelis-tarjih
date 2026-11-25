@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+:root {
+  --bg-page: #f7f9fc;
+  --bg-surface: #ffffff;
+  --bg-subtle: #edf2f8;
+  --border-soft: #dbe4ef;
+  --ink-primary: #142230;
+  --ink-secondary: #4e6073;
+  --brand-primary: #0b4f8c;
+  --brand-dark: #073866;
+  --brand-soft: #e7f2fc;
+  --gold-accent: #c88d1d;
+  --gold-soft: #fdf5e3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--ink-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif-title {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic), "Amiri", "Traditional Arabic", serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+/* Radiant Surya Sapphire Hero Pattern */
+.pattern-surya {
+  background-color: #0b4f8c;
+  background-image: radial-gradient(
+      circle at 18% 18%,
+      rgba(242, 201, 107, 0.2) 0,
+      transparent 48%
+    ),
+    radial-gradient(
+      circle at 85% 24%,
+      rgba(56, 189, 248, 0.14) 0,
+      transparent 44%
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.03) 0px,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 18px
+    ),
+    linear-gradient(135deg, #0c5698 0%, #09457c 54%, #062f58 100%);
+}
+
+/* Live Fatwa Tarjih Reader Typography */
+.fatwa-reader-content {
+  line-height: 1.85;
+  color: var(--ink-primary);
+}
+
+.fatwa-reader-content h1,
+.fatwa-reader-content h2,
+.fatwa-reader-content h3,
+.fatwa-reader-content h4 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 700;
+  color: #08335c;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.35;
+}
+
+.fatwa-reader-content h2 {
+  font-size: 1.35em;
+  border-bottom: 1px solid var(--border-soft);
+  padding-bottom: 0.35rem;
+}
+
+.fatwa-reader-content h3 {
+  font-size: 1.15em;
+}
+
+.fatwa-reader-content p {
+  margin-bottom: 1rem;
+}
+
+.fatwa-reader-content ul,
+.fatwa-reader-content ol {
+  margin: 0.75rem 0 1.15rem 1.35rem;
+}
+
+.fatwa-reader-content ul {
+  list-style-type: disc;
+}
+
+.fatwa-reader-content ol {
+  list-style-type: decimal;
+}
+
+.fatwa-reader-content li {
+  margin-bottom: 0.45rem;
+}
+
+.fatwa-reader-content blockquote {
+  border-left: 3px solid var(--gold-accent);
+  background: #fbf8f0;
+  padding: 0.9rem 1.1rem;
+  border-radius: 0.5rem;
+  margin: 1.1rem 0;
+}
+
+.fatwa-reader-content .arabic-dalil {
+  font-family: var(--font-arabic), "Amiri", serif;
+  direction: rtl;
+  text-align: right;
+  font-size: 1.38em;
+  line-height: 2.25;
+  background: #f1f7fd;
+  border-right: 4px solid var(--brand-primary);
+  border-left: none;
+  padding: 1rem 1.25rem;
+  border-radius: 0.65rem;
+  margin: 1.15rem 0;
+  color: #0b2640;
+}
+
+.fatwa-reader-content a {
+  color: var(--brand-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Night Reading Mode */
+.reader-dark {
+  background-color: #0f1822 !important;
+  color: #e4ecf4 !important;
+  border-color: #213447 !important;
+}
+
+.reader-dark .fatwa-reader-content {
+  color: #dfe9f2;
+}
+
+.reader-dark .fatwa-reader-content h1,
+.reader-dark .fatwa-reader-content h2,
+.reader-dark .fatwa-reader-content h3,
+.reader-dark .fatwa-reader-content h4 {
+  color: #93c5fd;
+  border-color: #22354a;
+}
+
+.reader-dark .fatwa-reader-content blockquote {
+  background: #162230;
+  border-left-color: #f2c96b;
+}
+
+.reader-dark .fatwa-reader-content .arabic-dalil {
+  background: #132538;
+  border-right-color: #38bdf8;
+  color: #eff6ff;
+}
+
+.reader-dark .fatwa-reader-content a {
+  color: #7dd3fc;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1cfe0;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -1,0 +1,654 @@
+[
+  {
+    "id": "tj-pdf-0086",
+    "slug": "e-book-tuntunan-walimatul-ursy-resepsi-pernikahan-islami",
+    "judul": "E-Book Tuntunan Walimatul 'Ursy (Resepsi Pernikahan) Islami",
+    "tabwib_id": "04.01",
+    "forum_id": "pengajian-tarjih-tuntunan",
+    "tahun": 2020,
+    "jenis_produk": "tuntunan",
+    "ringkasan_singkat": "Pedoman penyelenggaraan walimah pernikahan sesuai tuntunan sunnah dan adab keluarga sakinah Muhammadiyah.",
+    "tags": [
+      "tuntunan",
+      "e-book",
+      "walimatul",
+      "ursy",
+      "resepsi",
+      "pernikahan"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-tuntunan-walimah",
+      "halaman_mulai": 1
+    }
+  },
+  {
+    "id": "tj-pdf-0089",
+    "slug": "adabul-mar-ah-fil-islam-tuntunan-kedudukan-adab-perempuan-muhammadiyah",
+    "judul": "Adabul Mar'ah fil Islam — Tuntunan Kedudukan & Adab Perempuan Muhammadiyah",
+    "tabwib_id": "04.02",
+    "forum_id": "hpt-muhammadiyah",
+    "tahun": 2020,
+    "jenis_produk": "fikih_tematik",
+    "ringkasan_singkat": "Dokumen legendaris Majelis Tarjih Muhammadiyah tentang hak, peran publik, kepemimpinan, dan adab perempuan dalam Islam.",
+    "tags": [
+      "fikih-tematik",
+      "adabul",
+      "tuntunan",
+      "kedudukan",
+      "adab",
+      "perempuan"
+    ],
+    "tipe_akses": "pdf",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-adabul-marah",
+      "halaman_mulai": 1
+    }
+  },
+  {
+    "id": "tj-pdf-0110",
+    "slug": "fatwa-no-13-2015-penjelasan-hukum-khulu-gugat-cerai-istri",
+    "judul": "Fatwa No. 13/2015 — Penjelasan Hukum Khulu' (Gugat Cerai Istri)",
+    "tabwib_id": "04.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2015,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Ketentuan syar'i, uang tebusan ('iwadh), serta prosedur hukum khulu' menurut Majelis Tarjih Muhammadiyah.",
+    "tags": [
+      "fatwa",
+      "2015",
+      "penjelasan",
+      "khulu",
+      "gugat",
+      "cerai"
+    ],
+    "tipe_akses": "keduanya",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-fatwa-khuluk",
+      "halaman_mulai": 1
+    },
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/penjelasan-seputar-khulu/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2015-01-01"
+    }
+  },
+  {
+    "id": "tj-pdf-0117",
+    "slug": "fatwa-kriteria-busana-muslimah-yang-islami",
+    "judul": "Fatwa Kriteria Busana Muslimah yang Islami",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2022,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Penjelasan batasan aurat, adab berpakaian, serta kriteria busana muslimah yang syar'i dan bermartabat.",
+    "tags": [
+      "fatwa",
+      "kriteria",
+      "busana",
+      "muslimah",
+      "islami"
+    ],
+    "tipe_akses": "keduanya",
+    "pdf": {
+      "dokumen_pdf_id": "pdf-fatwa-busana-muslimah",
+      "halaman_mulai": 1
+    },
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/kriteria-busana-muslimah-yang-islami/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2022-01-01"
+    }
+  },
+  {
+    "id": "tj-ftw-0273",
+    "slug": "tujuan-petunjuk-dan-asas-dalam-melaksanakan-agama",
+    "judul": "Tujuan, Petunjuk dan Asas Dalam Melaksanakan Agama",
+    "tabwib_id": "04.04",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "1. Tujuan agama adalah untuk memberikan rahmat kepada manusia, yang dalam filosofi fikih disebut perwujudan kemaslahatan (taḥqīq al-maṣaliḥ). Ini didasarkan kepada firman Allah, وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَ",
+    "tags": [
+      "fatwa-tarjih",
+      "tujuan",
+      "petunjuk",
+      "asas",
+      "melaksanakan",
+      "agama"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/tujuan-petunjuk-dan-asas-dalam-melaksanakan-agama/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-05-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0317",
+    "slug": "hukum-muslimah-berjilbab-transparan-dan-mengenakan-celana",
+    "judul": "Hukum Muslimah Berjilbab Transparan dan Mengenakan Celana",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu'alaikum wr. wb. Bagaimana hukum dan cara mensikapi kebijakan pimpinan/instansi tentang seragam instansi: Jilbab yang transparan dan tidak besar (menutup dada)Menggunakan celana bagi wanitaBerol",
+    "tags": [
+      "fatwa-tarjih",
+      "muslimah",
+      "berjilbab",
+      "transparan",
+      "mengenakan",
+      "celana"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-muslimah-berjilbab-transparan-dan-mengenakan-celana/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-29"
+    }
+  },
+  {
+    "id": "tj-ftw-0323",
+    "slug": "menikah-lagi-setelah-mencerai-empat-istri",
+    "judul": "Menikah Lagi Setelah Mencerai Empat Istri",
+    "tabwib_id": "04.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu'alaikum wr. wb. Jika saya menikah sirri dengan wanita sebanyak 4x selain isteri pertama, namun karena suatu hal (tidak cocok/tidak patuh sama suami) ke-4 isteri sirri tersebut diceraikan. Apaka",
+    "tags": [
+      "fatwa-tarjih",
+      "menikah",
+      "lagi",
+      "setelah",
+      "mencerai",
+      "empat",
+      "istri"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/menikah-lagi-setelah-mencerai-empat-istri/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-27"
+    }
+  },
+  {
+    "id": "tj-ftw-0340",
+    "slug": "nikah-beda-agama-bagaimana-hukumnya",
+    "judul": "Nikah Beda Agama, Bagaimana Hukumnya?",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu'alaikum w. w. Saya ingin menanyakan kasus berikut: Ada seorang laki-laki Muslim berbuat zina dengan seorang wanita Katolik sehingga hamil sekian bulan, lalu ia ingin bertanggungjawab dengan men",
+    "tags": [
+      "fatwa-tarjih",
+      "nikah",
+      "beda",
+      "agama"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/nikah-beda-agama-bagaimana-hukumnya/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-17"
+    }
+  },
+  {
+    "id": "tj-ftw-0366",
+    "slug": "istri-aktif-di-organisasi-bagaimana-hukumnya",
+    "judul": "Istri Aktif di Organisasi, Bagaimana Hukumnya?",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalamu ’alaikum Wr. Wb. Seorang istri di dalam keluarga memang berkewajiban mengurus suami dan anaknya. Teman saya sebetulnya aktivis tetapi selalu terbentur dengan kepentingan suaminya, ia sangat patuh dan",
+    "tags": [
+      "fatwa-tarjih",
+      "istri",
+      "aktif",
+      "organisasi"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/istri-aktif-di-organisasi-bagaimana-hukumnya/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-02-01"
+    }
+  },
+  {
+    "id": "tj-ftw-0375",
+    "slug": "panggilan-papa-mama-untuk-suami-istri",
+    "judul": "Panggilan Papa Mama untuk Suami Istri",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Apakah boleh memanggil istri dengan sebutan “mama” oleh suami atau sebaliknya istri memanggil suami dengan sebutan “papa”? Penanya:Tamrin Mobonggi, NBM. 466.786 di Limbato, Gorontalo(disidangkan pada hari Jum",
+    "tags": [
+      "fatwa-tarjih",
+      "panggilan",
+      "papa",
+      "mama",
+      "suami",
+      "istri"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/panggilan-papa-mama-untuk-suami-istri/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-28"
+    }
+  },
+  {
+    "id": "tj-ftw-0381",
+    "slug": "hukum-nikah-beda-agama",
+    "judul": "Hukum Nikah Beda Agama",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pada akhir-akhir ini banyak kita dengar perkawinan berlainan agama, yang saya tanyakan apakah sah perkawinan antar agama tersebut? Dan apakah hukumnya mereka berhubungan suami isteri? Apakah termasuk zina? De",
+    "tags": [
+      "fatwa-tarjih",
+      "nikah",
+      "beda",
+      "agama"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-nikah-beda-agama/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-28"
+    }
+  },
+  {
+    "id": "tj-ftw-0382",
+    "slug": "pengertian-anak-yatim-dan-cara-menyantuninya",
+    "judul": "Pengertian Anak Yatim dan Cara Menyantuninya",
+    "tabwib_id": "04.04",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Mohon dijelaskan arti yatim dalam al-Quran. Apakah dikhususkan anak yang kematian bapak saja, atau yang tidak beribu pun disebut yatim? Benarkah anak yang kematian ibu boleh didiskriminatifkan dalam penyantun",
+    "tags": [
+      "fatwa-tarjih",
+      "pengertian",
+      "anak",
+      "yatim",
+      "menyantuninya"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/pengertian-anak-yatim-dan-cara-menyantuninya/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-28"
+    }
+  },
+  {
+    "id": "tj-ftw-0388",
+    "slug": "bolehkah-mendeteksi-jenis-kelamin-bayi-melalui-usg",
+    "judul": "Bolehkah Mendeteksi Jenis Kelamin Bayi Melalui USG?",
+    "tabwib_id": "04.04",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Dalam al-Quran disebutkan bahwa manusia tidak tahu jenis kelamin yang ada dalam rahim seorang ibu. Bagaimana dengan ultrasonography (USG) yang dapat mendeteksi dalam kandungan, sehingga dapat diketahui apakah",
+    "tags": [
+      "fatwa-tarjih",
+      "mendeteksi",
+      "jenis",
+      "kelamin",
+      "bayi",
+      "melalui"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/bolehkah-mendeteksi-jenis-kelamin-bayi-melalui-usg/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-27"
+    }
+  },
+  {
+    "id": "tj-ftw-0407",
+    "slug": "hukum-perkawinan-antara-saudara-sepupu",
+    "judul": "Hukum Perkawinan Antara Saudara Sepupu",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Bolehkah melaksanakan perkawinan seorang perempuan dengan seorang laki-laki yang bapak keduanya adalah saudara sekandung, yaitu seayah dan seibu? Jawaban: Tidak ditemukan nash-nash (al-Qur’an dan as-Sunnah ya",
+    "tags": [
+      "fatwa-tarjih",
+      "perkawinan",
+      "antara",
+      "saudara",
+      "sepupu"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-perkawinan-antara-saudara-sepupu/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-14"
+    }
+  },
+  {
+    "id": "tj-ftw-0416",
+    "slug": "menceraikan-istri-karena-tidak-bisa-memberikan-keturunan",
+    "judul": "Menceraikan Istri Karena Tidak Bisa Memberikan Keturunan",
+    "tabwib_id": "04.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Dua orang suami istri yang menikah 17 tahun yang lalu dan hidup bersama kurang harmonis lantaran tidak punya keturunan dan istri sakit-sakitan. Bahkan istri sudah menjalani operasi kandungan 7 tahun lalu, dan",
+    "tags": [
+      "fatwa-tarjih",
+      "menceraikan",
+      "istri",
+      "karena",
+      "memberikan",
+      "keturunan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/menceraikan-istri-karena-tidak-bisa-memberikan-keturunan/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-08"
+    }
+  },
+  {
+    "id": "tj-ftw-0427",
+    "slug": "wali-nikah-perempuan-yang-lahir-di-luar-nikah",
+    "judul": "Wali Nikah Perempuan yang Lahir di Luar Nikah",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Siapa yang menjadi wali nikah dari perempuan yang lahir diluar nikah, sekalipun ibunya telah melakukan akad nikah yang sah dengan laki-laki yang menyebabkan kehamilannya itu, sewaktu perempuan itu masih dalam",
+    "tags": [
+      "fatwa-tarjih",
+      "wali",
+      "nikah",
+      "perempuan",
+      "lahir",
+      "luar"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/wali-nikah-perempuan-yang-lahir-di-luar-nikah/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-04"
+    }
+  },
+  {
+    "id": "tj-ftw-0428",
+    "slug": "hukum-pertunangan-menurut-islam",
+    "judul": "Hukum Pertunangan Menurut Islam",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Bagaimanakah hukum pertunangan yang dilakukan sebelum pernikahan menurut agama Islam? Pertanyaan Dari:Sugiri, Klaten dan Sunardi, Billalang II Jawaban: Pertunangan merupakan salah satu proses perkawinan yang",
+    "tags": [
+      "fatwa-tarjih",
+      "pertunangan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-pertunangan-menurut-islam/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-04"
+    }
+  },
+  {
+    "id": "tj-ftw-0429",
+    "slug": "perkemahan-putri-kepanduan-hizbul-wathan",
+    "judul": "Perkemahan Putri Kepanduan Hizbul Wathan",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2020,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Bagaimana hukum bagi anggota puteri Gerakan Kepanduan Hizbul Wathan untuk mengikuti kegiatan kepanduan yang berupa kegiatan perkemahan yang berlangsung 3-4 hari? Pertanyaan Dari:Drs. H. Rasid Moh. Tauhid al-A",
+    "tags": [
+      "fatwa-tarjih",
+      "perkemahan",
+      "putri",
+      "kepanduan",
+      "hizbul",
+      "wathan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/perkemahan-putri-kepanduan-hizbul-wathan/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2020-01-04"
+    }
+  },
+  {
+    "id": "tj-ftw-0431",
+    "slug": "kedudukan-wanita-dalam-pandangan-islam",
+    "judul": "Kedudukan Wanita Dalam Pandangan Islam",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Bagaimana Islam memandang wanita? (contoh kasus di Afganistan saat Thaliban berkuasa wanita dilarang keluar rumah atau ikut berpolitik atau ikut berolahraga) Pertanyaan Dari:Lukman Amirudin Syarif, luasy-01@p",
+    "tags": [
+      "fatwa-tarjih",
+      "kedudukan",
+      "wanita",
+      "pandangan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/kedudukan-wanita-dalam-pandangan-islam/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-30"
+    }
+  },
+  {
+    "id": "tj-ftw-0441",
+    "slug": "penjelasan-seputar-jilbab-dan-aurat-wanita-muslimah",
+    "judul": "Penjelasan Seputar Jilbab dan Aurat Wanita Muslimah",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Bagi wanita muslimah di Indonesia, apakah wajib menutup auratnya seperti yang termaktub dalam al-Qur’an surat an-Nur ayat 30-32? Seandainya wajib, apakah kadar kewajibannya sama dengan kadar kewajiban melaksa",
+    "tags": [
+      "fatwa-tarjih",
+      "penjelasan",
+      "seputar",
+      "jilbab",
+      "aurat",
+      "wanita",
+      "muslimah"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/penjelasan-seputar-jilbab-dan-aurat-wanita-muslimah/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-26"
+    }
+  },
+  {
+    "id": "tj-ftw-0448",
+    "slug": "talak-dijatuhkan-dalam-keadaan-emosi-bagaimana-hukumnya",
+    "judul": "Talak Dijatuhkan dalam Keadaan Emosi, Bagaimana Hukumnya?",
+    "tabwib_id": "04.03",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pertanyaan : Bagaimana hukum menjatuhkan talak oleh suami kepada istrinya pada suatu tempat, sementara ia sedang dalam keadaan emosi ?Bagaimana pula proses rujuknya, jika suami ingin rujuk kepada istrinya ? Pertanyaan Da",
+    "tags": [
+      "fatwa-tarjih",
+      "talak",
+      "dijatuhkan",
+      "keadaan",
+      "emosi"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/talak-dijatuhkan-dalam-keadaan-emosi-bagaimana-hukumnya/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-25"
+    }
+  },
+  {
+    "id": "tj-ftw-0456",
+    "slug": "hukum-wanita-muslimah-tidak-berhijab",
+    "judul": "Hukum Wanita Muslimah Tidak Berhijab",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "As-Salamu ‘alaikum Wr. Wb. Saya siswa SMA Muhammadiyah 1 Kalirejo, mau bertanya tentang hukum orang yang tidak pernah memakai jilbab bagi orang Islam khususnya bagi perempuan. Terima kasih. Was-salamu ‘alaiku",
+    "tags": [
+      "fatwa-tarjih",
+      "wanita",
+      "muslimah",
+      "berhijab"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-wanita-muslimah-tidak-berhijab/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-20"
+    }
+  },
+  {
+    "id": "tj-ftw-0469",
+    "slug": "haruskah-menikah-dalam-keadaan-suci",
+    "judul": "Haruskah Menikah Dalam Keadaan Suci?",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Nikah itu suci. Karena nikah itu suci, apakah ada ketentuan pada waktu dinikahkan kedua mempelai dalam keadaan suci? Atas jawaban pengasuh saya ucapkan terima kasih. Pertanyaan dari:Anwar Raamin, Jl. Dr. Angk",
+    "tags": [
+      "fatwa-tarjih",
+      "haruskah",
+      "menikah",
+      "keadaan",
+      "suci"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/haruskah-menikah-dalam-keadaan-suci/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0470",
+    "slug": "lafadz-ijab-qabul-dalam-pernikahan",
+    "judul": "Lafadz Ijab Qabul Dalam Pernikahan",
+    "tabwib_id": "04.01",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Dalam ikrar ijab qabul dalam bahasa Indonesia ada tiga jawaban mempelai pria: Saya terima nikahnya ... (dengan jawaban ini seolah-olah mempelai wanita menikahi mempelai pria) Saya terima menikahi Saya ter",
+    "tags": [
+      "fatwa-tarjih",
+      "lafadz",
+      "ijab",
+      "qabul",
+      "pernikahan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/lafadz-ijab-qabul-dalam-pernikahan/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0474",
+    "slug": "perselingkuhan-bagaimana-hukumnya",
+    "judul": "Perselingkuhan, Bagaimana Hukumnya?",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "As-salamu ‘alaikum Wr. Wb. Saya salah satu murid SMA Muhammadiyah di Lampung, ingin bertanya dan mohon penjelasannya, bagaimana hukum dari perselingkuhan? Was-salamu ‘alaikum Wr. Wb. JP, Lampung(Disidangkan p",
+    "tags": [
+      "fatwa-tarjih",
+      "perselingkuhan"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/perselingkuhan-bagaimana-hukumnya/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-15"
+    }
+  },
+  {
+    "id": "tj-ftw-0487",
+    "slug": "hukum-bayi-tabung-dan-kloning-menurut-islam",
+    "judul": "Hukum Bayi Tabung dan Kloning Menurut Islam",
+    "tabwib_id": "04.04",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pertanyaan, Mohon penjelasan tentang bayi tabung menurut syariat Islam? Mohon penjelasan tentang kloning menurut syariat Islam? Penanya:Wakidjo Az., NBM. 494.220Agen SM No. 025, Metro Lampung Tengah Jawaban, Soal pertama",
+    "tags": [
+      "fatwa-tarjih",
+      "bayi",
+      "tabung",
+      "kloning"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/hukum-bayi-tabung-dan-kloning-menurut-islam/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-09"
+    }
+  },
+  {
+    "id": "tj-ftw-0489",
+    "slug": "suami-istri-berkumpul-kembali-di-akhirat",
+    "judul": "Suami Istri Berkumpul Kembali di Akhirat?",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Pertanyaan, Sepasang suami istri, salah satunya (suami atau istri) telah meninggal dunia terlebih dahulu, apakah di akhirat nanti dapat bertemu kembali? Bagaimana kalau yang ditinggal menikah lagi? Penanya:Wakidjo Az., N",
+    "tags": [
+      "fatwa-tarjih",
+      "suami",
+      "istri",
+      "berkumpul",
+      "kembali",
+      "akhirat"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/suami-istri-berkumpul-kembali-di-akhirat/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-06"
+    }
+  },
+  {
+    "id": "tj-ftw-0515",
+    "slug": "aurat-wanita-muslimah",
+    "judul": "Aurat Wanita Muslimah",
+    "tabwib_id": "04.02",
+    "forum_id": "fatwa-tarjih-resmi",
+    "tahun": 2019,
+    "jenis_produk": "fatwa",
+    "ringkasan_singkat": "Assalaamu ‘alaikum Wr. Wb. Bolehkah wanita Islam memperlihatkan/ menampakkan perhiasannya kepada wanita non muslim? Mohon pencerahannya, kalau anak saya masuk suatu sekolah umum yang terdiri dari beberapa aga",
+    "tags": [
+      "fatwa-tarjih",
+      "aurat",
+      "wanita",
+      "muslimah"
+    ],
+    "tipe_akses": "artikel",
+    "artikel": {
+      "url": "https://fatwatarjih.or.id/aurat-wanita-muslimah/",
+      "nama_sumber": "fatwatarjih.or.id",
+      "tanggal_terbit": "2019-12-04"
+    }
+  }
+]

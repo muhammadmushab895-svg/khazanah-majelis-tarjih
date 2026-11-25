@@ -1,0 +1,388 @@
+[
+  {
+    "id": "01",
+    "parent_id": null,
+    "level": 1,
+    "kode": "01",
+    "nama_id": "Kitab al-Iman & Manhaj Tarjih",
+    "nama_ar": "كتاب الإيمان ومنهج الترجيح",
+    "slug": "iman-manhaj-tarjih",
+    "deskripsi": "Aqidah Islam, pemurnian tauhid, Manhaj Tarjih & Tajdid (Bayani, Burhani, Irfani), serta Pedoman Hidup Islami."
+  },
+  {
+    "id": "01.01",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.01",
+    "nama_id": "Aqidah, Tauhid & Iman",
+    "nama_ar": "باب العقيدة والتوحيد",
+    "slug": "aqidah-tauhid",
+    "deskripsi": "Masalah keimanan, tauhid, syirik, takhayul, bid'ah, khurafat, dan keyakinan Islam."
+  },
+  {
+    "id": "01.02",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.02",
+    "nama_id": "Manhaj Tarjih, Tajdid & Istinbath",
+    "nama_ar": "باب منهج الترجيح والتجديد",
+    "slug": "manhaj-tarjih",
+    "deskripsi": "Metodologi ijtihad Majelis Tarjih, pendekatan Bayani-Burhani-Irfani, serta kedudukan putusan dan fatwa."
+  },
+  {
+    "id": "01.03",
+    "parent_id": "01",
+    "level": 2,
+    "kode": "01.03",
+    "nama_id": "Akhlak, Adab & Pedoman Hidup Islami",
+    "nama_ar": "باب الأخلاق والآداب",
+    "slug": "akhlak-phiwm",
+    "deskripsi": "Pedoman Hidup Islami Warga Muhammadiyah (PHIWM), adab keseharian, dan etika bermasyarakat."
+  },
+
+  {
+    "id": "02",
+    "parent_id": null,
+    "level": 1,
+    "kode": "02",
+    "nama_id": "Kitab al-'Ibadah",
+    "nama_ar": "كتاب العبادات",
+    "slug": "al-ibadah",
+    "deskripsi": "Thaharah, Shalat, Jenazah, Zakat, Puasa, Haji & Umrah, Qurban, Aqiqah, serta Doa & Dzikir."
+  },
+  {
+    "id": "02.01",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.01",
+    "nama_id": "Thaharah (Bersuci & Najis)",
+    "nama_ar": "باب الطهارة",
+    "slug": "thaharah",
+    "deskripsi": "Wudhu, tayamum, mandi wajib, hukum najis, haid, istihadhah, dan nifas."
+  },
+  {
+    "id": "02.02",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.02",
+    "nama_id": "Shalat (Fardhu, Sunnah & Jamaah)",
+    "nama_ar": "باب الصلاة",
+    "slug": "shalat",
+    "deskripsi": "Tata cara shalat sesuai HPT, shalat jamaah, Jumat, tarawih, Idain, qashar-jama', dan masjid."
+  },
+  {
+    "id": "02.03",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.03",
+    "nama_id": "Jana'iz (Perawatan Jenazah)",
+    "nama_ar": "باب الجنائز",
+    "slug": "janaiz",
+    "deskripsi": "Memandikan, mengafani, menyalati, menguburkan jenazah, takziyah, dan ziarah kubur."
+  },
+  {
+    "id": "02.04",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.04",
+    "nama_id": "Zakat, Infaq & Filantropi",
+    "nama_ar": "باب الزكاة والإنفاق",
+    "slug": "zakat-infaq",
+    "deskripsi": "Zakat fitrah, zakat mal, zakat profesi, mustahiq, fidyah, serta pengelolaan Lazismu."
+  },
+  {
+    "id": "02.05",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.05",
+    "nama_id": "Shiyam (Puasa & I'tikaf)",
+    "nama_ar": "باب الصيام والاعتكاف",
+    "slug": "shiyam",
+    "deskripsi": "Tuntunan Ramadhan, pembatal puasa, qadha', fidyah, puasa sunnah, dan i'tikaf."
+  },
+  {
+    "id": "02.06",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.06",
+    "nama_id": "Haji & Umrah",
+    "nama_ar": "باب الحج والعمرة",
+    "slug": "haji-umrah",
+    "deskripsi": "Manasik haji dan umrah, istitha'ah, dana talangan, badal haji, dam, dan murur."
+  },
+  {
+    "id": "02.07",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.07",
+    "nama_id": "Qurban, Aqiqah & Nadzar",
+    "nama_ar": "باب الأضحية والعقيقة",
+    "slug": "qurban-aqiqah",
+    "deskripsi": "Tuntunan ibadah qurban, patungan, aqiqah, distribusi daging olahan, dan nadzar."
+  },
+  {
+    "id": "02.08",
+    "parent_id": "02",
+    "level": 2,
+    "kode": "02.08",
+    "nama_id": "Doa, Dzikir & Al-Qur'an",
+    "nama_ar": "باب الذكر والدعاء والقرآن",
+    "slug": "doa-dzikir-quran",
+    "deskripsi": "Tuntunan dzikir sesuai sunnah, bacaan Al-Qur'an, ruqyah syar'iyyah, dan adab berdoa."
+  },
+
+  {
+    "id": "03",
+    "parent_id": null,
+    "level": 1,
+    "kode": "03",
+    "nama_id": "Kitab al-Mu'amalah ad-Dunyawiyyah",
+    "nama_ar": "كتاب المعاملات الدنيوية",
+    "slug": "muamalah-dunyawiyyah",
+    "deskripsi": "Jual beli, ekonomi digital, perbankan, asuransi, wakaf, hibah, kewarisan (faraidh), dan ketenagakerjaan."
+  },
+  {
+    "id": "03.01",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.01",
+    "nama_id": "Jual Beli, Bisnis & E-Commerce",
+    "nama_ar": "باب البيوع والتجارة",
+    "slug": "jual-beli-bisnis",
+    "deskripsi": "Akad jual beli, marketplace, dropship, diskon, kripto, dan etika bisnis syariah."
+  },
+  {
+    "id": "03.02",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.02",
+    "nama_id": "Perbankan, Riba, Asuransi & Fintech",
+    "nama_ar": "باب المصارف والربا والتأمين",
+    "slug": "perbankan-riba-fintech",
+    "deskripsi": "Fatwa bunga bank, kredit, BPJS, asuransi, gadai, utang piutang, dan pinjaman online."
+  },
+  {
+    "id": "03.03",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.03",
+    "nama_id": "Wakaf, Hibah & Wasiat",
+    "nama_ar": "باب الوقف والهبة والوصية",
+    "slug": "wakaf-hibah-wasiat",
+    "deskripsi": "Fikih Wakaf Muhammadiyah, wakaf uang, ruislag/istibdal, hibah, dan pengelolaan amal usaha."
+  },
+  {
+    "id": "03.04",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.04",
+    "nama_id": "Faraidh (Hukum Kewarisan)",
+    "nama_ar": "باب الفرائض والمواريث",
+    "slug": "faraidh-waris",
+    "deskripsi": "Pembagian waris, wasiat wajibah, ahli waris pengganti, dan harta bersama."
+  },
+  {
+    "id": "03.05",
+    "parent_id": "03",
+    "level": 2,
+    "kode": "03.05",
+    "nama_id": "Kerja, Profesi, Syirkah & Investasi",
+    "nama_ar": "باب العمل والشركة والاستثمار",
+    "slug": "kerja-investasi",
+    "deskripsi": "Ijarah, upah, saham, investasi halal, koperasi, dan perlindungan pekerja."
+  },
+
+  {
+    "id": "04",
+    "parent_id": null,
+    "level": 1,
+    "kode": "04",
+    "nama_id": "Kitab al-Usrah (Keluarga Sakinah)",
+    "nama_ar": "كتاب الأسرة والمنكحات",
+    "slug": "keluarga-sakinah",
+    "deskripsi": "Tuntunan Keluarga Sakinah, khitbah, akad nikah, nafkah, talak, rujuk, dan perlindungan anak."
+  },
+  {
+    "id": "04.01",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.01",
+    "nama_id": "Khitbah, Wali & Akad Nikah",
+    "nama_ar": "باب الخطبة والنكاح",
+    "slug": "khitbah-nikah",
+    "deskripsi": "Syarat sah nikah, wali nikah, mahar, nikah beda agama, pencatatan nikah, dan walimah."
+  },
+  {
+    "id": "04.02",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.02",
+    "nama_id": "Rumah Tangga, Nafkah & Relasi Gender",
+    "nama_ar": "باب المعاشرة والنفقة",
+    "slug": "rumah-tangga-gender",
+    "deskripsi": "Tuntunan menuju Keluarga Sakinah, hak-kewajiban suami istri, poligami, dan kesetaraan."
+  },
+  {
+    "id": "04.03",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.03",
+    "nama_id": "Talak, Khulu', Iddah & Rujuk",
+    "nama_ar": "باب الطلاق والعدة والرجعة",
+    "slug": "talak-iddah-rujuk",
+    "deskripsi": "Hukum talak di luar pengadilan, khulu', masa iddah, ihdad, dan tata cara rujuk."
+  },
+  {
+    "id": "04.04",
+    "parent_id": "04",
+    "level": 2,
+    "kode": "04.04",
+    "nama_id": "Anak, Nasab & Perlindungan Keluarga",
+    "nama_ar": "باب النسب وحماية الطفل",
+    "slug": "anak-nasab",
+    "deskripsi": "Fikih Perlindungan Anak, status anak luar nikah, penyusuan, adopsi, dan hak asuh."
+  },
+
+  {
+    "id": "05",
+    "parent_id": null,
+    "level": 1,
+    "kode": "05",
+    "nama_id": "Kitab Hisab, Falak & Kalender Islam",
+    "nama_ar": "كتاب الحساب والفلك والتقويم",
+    "slug": "hisab-falak-khgt",
+    "deskripsi": "Hisab Hakiki Wujudul Hilal, Kalender Hijriah Global Tunggal (KHGT), waktu shalat, dan arah kiblat."
+  },
+  {
+    "id": "05.01",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.01",
+    "nama_id": "Hisab Hakiki & Awal Bulan Qamariah",
+    "nama_ar": "باب الحساب الحقيقي والأهلة",
+    "slug": "hisab-hakiki",
+    "deskripsi": "Penetapan awal Ramadhan, Syawal, Dzulhijjah, dan metodologi Hisab Hakiki Wujudul Hilal."
+  },
+  {
+    "id": "05.02",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.02",
+    "nama_id": "Kalender Hijriah Global Tunggal (KHGT)",
+    "nama_ar": "باب التقويم الهجري العالمي الموحد",
+    "slug": "khgt",
+    "deskripsi": "Keputusan Munas Tarjih XXXII tentang prinsip, kriteria, dan implementasi KHGT."
+  },
+  {
+    "id": "05.03",
+    "parent_id": "05",
+    "level": 2,
+    "kode": "05.03",
+    "nama_id": "Waktu Shalat, Subuh, Kiblat & Gerhana",
+    "nama_ar": "باب أوقات الصلاة والقبلة والكسوف",
+    "slug": "waktu-shalat-kiblat",
+    "deskripsi": "Kriteria awal waktu Subuh (-18°), arah kiblat, serta tuntunan shalat gerhana."
+  },
+
+  {
+    "id": "06",
+    "parent_id": null,
+    "level": 1,
+    "kode": "06",
+    "nama_id": "Kitab Fikih Kebangsaan, Sosial & Ekologi",
+    "nama_ar": "كتاب فقه الدولة والبيئة والمجتمع",
+    "slug": "kebangsaan-ekologi",
+    "deskripsi": "Darul Ahdi wasy Syahadah, Fikih Air, Fikih Kebencanaan, Fikih Agraria, Pajak, dan Keadilan Sosial."
+  },
+  {
+    "id": "06.01",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.01",
+    "nama_id": "Kebangsaan, Negara & Kepemimpinan",
+    "nama_ar": "باب الوطنية والإمامة",
+    "slug": "kebangsaan-negara",
+    "deskripsi": "Negara Pancasila sebagai Darul Ahdi wasy Syahadah, pemilu, politik, dan hukum pidana/korupsi."
+  },
+  {
+    "id": "06.02",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.02",
+    "nama_id": "Fikih Air, Iklim & Lingkungan Hidup",
+    "nama_ar": "باب فقه الماء والبيئة",
+    "slug": "fikih-air-lingkungan",
+    "deskripsi": "Fikih Air Muhammadiyah, konservasi sumber daya alam, sampah, dan perubahan iklim."
+  },
+  {
+    "id": "06.03",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.03",
+    "nama_id": "Fikih Kebencanaan & Kemanusiaan",
+    "nama_ar": "باب فقه الكوارث والإنسانية",
+    "slug": "fikih-kebencanaan",
+    "deskripsi": "Fikih Kebencanaan, rukhshah ibadah saat darurat/pandemi, serta solidaritas kemanusiaan."
+  },
+  {
+    "id": "06.04",
+    "parent_id": "06",
+    "level": 2,
+    "kode": "06.04",
+    "nama_id": "Fikih Agraria, Pajak & Tata Kelola",
+    "nama_ar": "باب الأراضي والضرائب",
+    "slug": "agraria-pajak",
+    "deskripsi": "Fikih Agraria, keadilan pertanahan, perpajakan, dan kebijakan publik."
+  },
+
+  {
+    "id": "07",
+    "parent_id": null,
+    "level": 1,
+    "kode": "07",
+    "nama_id": "Kitab Fikih Kontemporer, Medis & Digital",
+    "nama_ar": "كتاب القضايا المعاصرة والطب والرقمنة",
+    "slug": "kontemporer-medis-digital",
+    "deskripsi": "Medis & bioetika, produk halal & fatwa rokok, Fikih Informasi, difabel, seni, dan budaya."
+  },
+  {
+    "id": "07.01",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.01",
+    "nama_id": "Kesehatan, Medis & Bioetika",
+    "nama_ar": "باب الطب والأخلاقيات الحيوية",
+    "slug": "kesehatan-bioetika",
+    "deskripsi": "Vaksin, transplantasi organ, KB, aborsi medis, bayi tabung, dan pelayanan kesehatan."
+  },
+  {
+    "id": "07.02",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.02",
+    "nama_id": "Makanan, Produk Halal & Fatwa Rokok",
+    "nama_ar": "باب الأطعمة والأشربة",
+    "slug": "makanan-halal-rokok",
+    "deskripsi": "Fatwa haram merokok & vape, alkohol/etanol dalam produk, obat, dan kehalalan makanan."
+  },
+  {
+    "id": "07.03",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.03",
+    "nama_id": "Fikih Informasi, Media Sosial & AI",
+    "nama_ar": "باب فقه المعلومات والذكاء الاصطناعي",
+    "slug": "fikih-informasi-digital",
+    "deskripsi": "Fikih Informasi Muhammadiyah, etika media sosial, privasi, hoaks, dan teknologi kecerdasan buatan."
+  },
+  {
+    "id": "07.04",
+    "parent_id": "07",
+    "level": 2,
+    "kode": "07.04",
+    "nama_id": "Difabel, Seni, Budaya & Pendidikan",
+    "nama_ar": "باب ذوي الإعاقة والفنون والتعليم",
+    "slug": "difabel-seni-budaya",
+    "deskripsi": "Fikih Difabel, hukum musik & seni rupa, dakwah kultural, serta dunia pendidikan."
+  }
+]

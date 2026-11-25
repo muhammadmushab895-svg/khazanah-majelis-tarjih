@@ -1,0 +1,112 @@
+[
+  {
+    "id": "hpt-muhammadiyah",
+    "nama": "Himpunan Putusan Tarjih (HPT) PP Muhammadiyah",
+    "singkatan": "HPT PPM",
+    "tingkat": "pp_muhammadiyah",
+    "tahun": null,
+    "lokasi": "Yogyakarta",
+    "penyelenggara": "Pimpinan Pusat Muhammadiyah — Majelis Tarjih & Tajdid",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Kompilasi resmi keputusan-keputusan pokok Majelis Tarjih Muhammadiyah bidang aqidah, ibadah, muamalah, dan adab."
+  },
+  {
+    "id": "munas-tarjih-32",
+    "nama": "Musyawarah Nasional Tarjih XXXII Muhammadiyah (Pekalongan)",
+    "singkatan": "Munas XXXII",
+    "tingkat": "munas_tarjih",
+    "tahun": 2024,
+    "lokasi": "Universitas Muhammadiyah Pekajangan Pekalongan",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Keputusan dan Tanfidz Munas Tarjih XXXII: Kalender Hijriah Global Tunggal (KHGT), Pengembangan Manhaj Tarjih, dan Fikih Zakat Kontemporer."
+  },
+  {
+    "id": "munas-tarjih-31",
+    "nama": "Musyawarah Nasional Tarjih XXXI Muhammadiyah (Gresik)",
+    "singkatan": "Munas XXXI",
+    "tingkat": "munas_tarjih",
+    "tahun": 2020,
+    "lokasi": "Universitas Muhammadiyah Gresik",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Keputusan dan Tanfidz Munas Tarjih XXXI: Kriteria Awal Waktu Subuh (-18°), Risalah Akhlak Islam Filosofis, Fikih Difabel, Fikih Agraria, dan Fikih Wakaf."
+  },
+  {
+    "id": "munas-tarjih-30",
+    "nama": "Musyawarah Nasional Tarjih XXX Muhammadiyah (Makassar)",
+    "singkatan": "Munas XXX",
+    "tingkat": "munas_tarjih",
+    "tahun": 2018,
+    "lokasi": "Universitas Muhammadiyah Makassar",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Keputusan Munas Tarjih XXX: Fikih Informasi, Fikih Perlindungan Anak, dan Fikih Anti-Korupsi."
+  },
+  {
+    "id": "munas-tarjih-29",
+    "nama": "Musyawarah Nasional Tarjih XXIX Muhammadiyah (Yogyakarta)",
+    "singkatan": "Munas XXIX",
+    "tingkat": "munas_tarjih",
+    "tahun": 2015,
+    "lokasi": "Universitas Muhammadiyah Yogyakarta",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Keputusan Munas Tarjih XXIX (BRM): Fikih Air, Fikih Kebencanaan, dan Tuntunan Ibadah Kontemporer."
+  },
+  {
+    "id": "munas-tarjih-28",
+    "nama": "Musyawarah Nasional Tarjih XXVIII Muhammadiyah (Palembang)",
+    "singkatan": "Munas XXVIII",
+    "tingkat": "munas_tarjih",
+    "tahun": 2014,
+    "lokasi": "Palembang, Sumatera Selatan",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Keputusan Munas Tarjih XXVIII (BRM): Tuntunan Menuju Keluarga Sakinah dan Fikih Takziah & Kematian."
+  },
+  {
+    "id": "munas-tarjih-27",
+    "nama": "Musyawarah Nasional Tarjih XXVII Muhammadiyah (Malang)",
+    "singkatan": "Munas XXVII",
+    "tingkat": "munas_tarjih",
+    "tahun": 2010,
+    "lokasi": "Universitas Muhammadiyah Malang",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Keputusan Munas Tarjih XXVII (BRM 06): Fikih Tata Kelola, Fikih Kesehatan/Rokok, serta Pedoman Hisab dan Ibadah."
+  },
+  {
+    "id": "fatwa-tarjih-resmi",
+    "nama": "Divisi Fatwa Agama Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "singkatan": "Fatwa Tarjih",
+    "tingkat": "mtt_fatwa",
+    "tahun": null,
+    "lokasi": "Yogyakarta",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://fatwatarjih.or.id",
+    "deskripsi": "Kumpulan fatwa agama resmi dan tanya jawab keislaman dari portal fatwatarjih.or.id dan Rubrik Fatwa Majelis Tarjih."
+  },
+  {
+    "id": "hisab-falak-tarjih",
+    "nama": "Divisi Hisab & Iptek Majelis Tarjih PP Muhammadiyah",
+    "singkatan": "Hisab & Falak",
+    "tingkat": "pp_muhammadiyah",
+    "tahun": null,
+    "lokasi": "Yogyakarta",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Maklumat awal bulan Qamariah, Pedoman KHGT, Hisab Hakiki Wujudul Hilal, Kriteria Waktu Subuh, dan panduan shalat gerhana."
+  },
+  {
+    "id": "pengajian-tarjih-tuntunan",
+    "nama": "E-Book Tuntunan & Kajian Majelis Tarjih PP Muhammadiyah",
+    "singkatan": "Tuntunan Tarjih",
+    "tingkat": "mtt_fatwa",
+    "tahun": null,
+    "lokasi": "Yogyakarta",
+    "penyelenggara": "Majelis Tarjih & Tajdid PP Muhammadiyah",
+    "situs_sumber": "https://tarjih.or.id",
+    "deskripsi": "Serial e-book tuntunan ibadah praktis (Thaharah, Shalat, Ramadhan, Jenazah, Aqiqah, Walimah, Kuliner Halal) dan kajian tematik resmi."
+  }
+]
