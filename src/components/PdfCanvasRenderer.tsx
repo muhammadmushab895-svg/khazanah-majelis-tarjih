@@ -137,10 +137,9 @@ export function PdfCanvasRenderer({
           const mb = (meta.length / (1024 * 1024)).toFixed(1);
           setLoadInfo(`Streaming cerdas dokumen ${mb} MB (hemat kuota)...`);
 
-          const MAX_SUB_CHUNK = RANGE_CHUNK_SIZE; // Exact 256 KB chunk alignment for zero overlap/duplicates
+          const MAX_SUB_CHUNK = RANGE_CHUNK_SIZE; // 256 KB per HTTP request (fast & always well under serverless limits)
           const MAX_CONCURRENT = 3;
           const queue: (() => Promise<void>)[] = [];
-          const requestedChunks = new Set<number>();
           let activeCount = 0;
 
           const pumpQueue = () => {
@@ -155,10 +154,51 @@ export function PdfCanvasRenderer({
             }
           };
 
-          const enqueue = (job: () => Promise<void>) => {
-            queue.push(job);
-            pumpQueue();
-          };
+          const enqueue = <T,>(task: () => Promise<T>): Promise<T> =>
+            new Promise<T>((resolve, reject) => {
+              queue.push(async () => {
+                try {
+                  resolve(await task());
+                } catch (e) {
+                  reject(e);
+                }
+              });
+              pumpQueue();
+            });
+
+          const fetchSubChunk = (subStart: number, subEnd: number) =>
+            enqueue(async () => {
+              let lastErr: unknown = null;
+              for (let attempt = 0; attempt < 3; attempt++) {
+                if (cancelled) throw new Error("Cancelled");
+                const ctrl = new AbortController();
+                abortControllers.add(ctrl);
+                const timer = setTimeout(() => ctrl.abort(), 14000);
+                try {
+                  const res = await fetch(
+                    `/api/pdf-proxy?doc=${encodeURIComponent(docId)}`,
+                    {
+                      headers: {
+                        Range: `bytes=${subStart}-${subEnd - 1}`,
+                      },
+                      signal: ctrl.signal,
+                    }
+                  );
+                  if (!res.ok && res.status !== 206) {
+                    throw new Error(`Range HTTP ${res.status}`);
+                  }
+                  const chunk = new Uint8Array(await res.arrayBuffer());
+                  clearTimeout(timer);
+                  abortControllers.delete(ctrl);
+                  return chunk;
+                } catch (err) {
+                  clearTimeout(timer);
+                  abortControllers.delete(ctrl);
+                  lastErr = err;
+                }
+              }
+              throw lastErr || new Error("Range sub-chunk failed");
+            });
 
           class ProxyRangeTransport extends pdfjs.PDFDataRangeTransport {
             constructor(length: number) {
@@ -167,52 +207,37 @@ export function PdfCanvasRenderer({
 
             requestDataRange(begin: number, end: number) {
               const safeEnd = Math.min(end, meta.length);
-              // Split multi-chunk requests on exact RANGE_CHUNK_SIZE boundaries and deduplicate by chunk index
+              const totalLen = Math.max(0, safeEnd - begin);
+              if (totalLen === 0) return;
+
+              // Split large ranges into fast 256 KB HTTP requests, then reassemble and deliver
+              // once with the exact `begin` offset required by PDFDataTransportStreamRangeReader!
+              const parts: { offset: number; promise: Promise<Uint8Array> }[] = [];
               for (let pos = begin; pos < safeEnd; pos += MAX_SUB_CHUNK) {
                 const subStart = pos;
                 const subEnd = Math.min(pos + MAX_SUB_CHUNK, safeEnd);
-                const chunkIdx = Math.floor(subStart / RANGE_CHUNK_SIZE);
-                if (requestedChunks.has(chunkIdx)) continue;
-                requestedChunks.add(chunkIdx);
-
-                enqueue(async () => {
-                  if (cancelled) return;
-                  for (let attempt = 0; attempt < 3; attempt++) {
-                    if (cancelled) return;
-                    const ctrl = new AbortController();
-                    abortControllers.add(ctrl);
-                    const timer = setTimeout(() => ctrl.abort(), 14000);
-                    try {
-                      const res = await fetch(
-                        `/api/pdf-proxy?doc=${encodeURIComponent(docId)}`,
-                        {
-                          headers: {
-                            Range: `bytes=${subStart}-${subEnd - 1}`,
-                          },
-                          signal: ctrl.signal,
-                        }
-                      );
-                      if (!res.ok && res.status !== 206) {
-                        throw new Error(`Range HTTP ${res.status}`);
-                      }
-                      const chunk = new Uint8Array(await res.arrayBuffer());
-                      clearTimeout(timer);
-                      abortControllers.delete(ctrl);
-                      if (!cancelled) {
-                        this.onDataRange(subStart, chunk);
-                      }
-                      return;
-                    } catch {
-                      clearTimeout(timer);
-                      abortControllers.delete(ctrl);
-                      if (attempt === 2) {
-                        requestedChunks.delete(chunkIdx);
-                        if (!cancelled) this.abort();
-                      }
-                    }
-                  }
+                parts.push({
+                  offset: subStart - begin,
+                  promise: fetchSubChunk(subStart, subEnd),
                 });
               }
+
+              Promise.all(parts.map((p) => p.promise))
+                .then((buffers) => {
+                  if (cancelled) return;
+                  if (buffers.length === 1) {
+                    this.onDataRange(begin, buffers[0]);
+                    return;
+                  }
+                  const assembled = new Uint8Array(totalLen);
+                  for (let i = 0; i < buffers.length; i++) {
+                    assembled.set(buffers[i], parts[i].offset);
+                  }
+                  this.onDataRange(begin, assembled);
+                })
+                .catch(() => {
+                  if (!cancelled) this.abort();
+                });
             }
           }
 
